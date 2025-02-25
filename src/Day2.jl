@@ -1044,7 +1044,7 @@ function main()
 
     nums = Vector{Vector{Float64}}([])
     for r in reports
-        num_vec = utils.StrtoFloat(split(r))
+        num_vec = utils.StrtoFloat(split(r),0)
         push!(nums,num_vec)
     end
 

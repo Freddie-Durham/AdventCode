@@ -1006,7 +1006,7 @@ end
 
 function main()
     str = split(data())
-    str = utils.StrtoFloat(str)
+    str = utils.StrtoFloat(str,0)
     listA,listB = utils.two_lists(str)
 
     listA = sort!(listA)
